@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Label layoutX="32.0" layoutY="42.0" text="Help - Word Miner">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="83.0" text="Welcome to Word Miner!">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="32.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This program is designed to help you expand your English vocabulary by mining and saving new words." wrappingWidth="445.08984375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Label layoutX="32.0" layoutY="151.0" text="Features:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="173.0" text=". Save Word:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="62.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Use the &quot;Save Word&quot; screen to store words you’ve encountered. Add a definition or example sentence to better understand and remember them." wrappingWidth="387.08984375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Label layoutX="48.0" layoutY="252.0" text=". Mine:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="60.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Access the 'Mine' screen to review your saved words. When you click the 'Mine' button, the current word will be marked as 'learned'. This feature helps you reinforce your learning." wrappingWidth="364.08984375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="32.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start building your vocabulary today and unlock the power of words!" wrappingWidth="499.08984375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Label layoutX="46.0" layoutY="334.0" text=". Words:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="58.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Navigate to the 'Words' screen to view a comprehensive list of all your saved words. This screen provides detailed information about each word, including its associated meanings and whether you've marked it as 'learned'. " wrappingWidth="364.08984375">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
